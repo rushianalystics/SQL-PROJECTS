@@ -1,6 +1,85 @@
-use  hr_analytics_db;
+# HR Analytics SQL Project
 
- -- 1) Total Employees
+# About Project
+
+This project is based on an HR Analytics database.
+
+I used SQL to analyze employee data and find useful information related to employees, salary, performance, attendance and attrition.
+
+# Database
+
+Database Name: `hr_analytics_db`
+
+# Tables Used
+
+- departments
+- employees
+- attendance
+- performance
+
+# SQL Skills Used
+
+- SELECT
+- WHERE
+- DISTINCT
+- ORDER BY
+- GROUP BY
+- HAVING
+- Aggregate Functions
+- JOINS
+- Subqueries
+- CASE
+- Date Functions
+
+# Analysis Questions
+
+1. Total Employees
+2. Active Employees
+3. Employee Attrition Rate
+4. Average Employee Salary
+5. Salary by Department
+6. Salary by Designation
+7. Average Performance Rating
+8. Top Performers
+9. Bonus Distribution
+10. Department-wise Headcount
+11. Gender Diversity Ratio
+12. Age Distribution
+13. Average Employee Tenure
+14. New Hires by Month
+15. Employee Attendance Rate
+16. Leave Utilization
+17. Absenteeism Rate
+18. Highest Paying Department
+19. Highest Paying Job Role
+20. Promotion Eligibility
+21. Performance Rating Distribution
+22. Employee Growth Trend
+23. Employees by City
+24. Department-wise Attrition
+25. Workforce Dashboard Metrics
+
+# Files
+
+- `hr_analytics_db.sql` - Database and tables
+- `hr_analysis_queries.sql` - SQL analysis queries
+- `README.md` - Project information
+
+# Tools
+
+- MySQL
+- SQL
+
+# Project Goal
+
+The main goal of this project is to practice SQL and analyze HR data to get useful business insights.
+ 
+
+ use  hr_analytics_db;
+
+ 
+
+-- 1) Total Employees
  
 SELECT 
     COUNT(*) AS total_employees
